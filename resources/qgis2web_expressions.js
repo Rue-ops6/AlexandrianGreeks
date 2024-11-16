@@ -897,13 +897,13 @@ function exp_AlexandrianGreeks_3rule9_eval_expression(context) {
 
 
 function exp_AlexandrianGreeks_3rule10_eval_expression(context) {
-    // "AlexandrianGreeks — Form responses 1_Field6" = '9'
+    // "AlexandrianGreeks — Form responses 1_Field6" = '10'
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.get('AlexandrianGreeks — Form responses 1_Field6')  == '9');
+        return (feature.get('AlexandrianGreeks — Form responses 1_Field6')  == '10');
     } else {
-        return (feature.get('AlexandrianGreeks — Form responses 1_Field6')  == '9');
+        return (feature.get('AlexandrianGreeks — Form responses 1_Field6')  == '10');
     }
 }
